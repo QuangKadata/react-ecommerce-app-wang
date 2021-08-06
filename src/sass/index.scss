@@ -1,0 +1,10 @@
+
+// can import bien ke thua cua scss truoc khi su dung component sass
+@import "./Variables.scss";
+@import "./Mixins.scss";
+@import "./Base.scss";
+
+
+// import component sass
+
+@import 'components/Header.scss';
