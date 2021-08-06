@@ -78,15 +78,15 @@ const Header = () => {
                     </div>
                     <div className="header__menu__right">
                         <div className="header__menu__item header__menu__right__item">
-                            <i className="bx bx-search"></i>
+                        <i className="fa fa-search" aria-hidden="true"></i>
                         </div>
                         <div className="header__menu__item header__menu__right__item">
                             <Link to="/cart">
-                                <i className="bx bx-shopping-bag"></i>
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
                             </Link>
                         </div>
                         <div className="header__menu__item header__menu__right__item">
-                            <i className="bx bx-user"></i>
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
