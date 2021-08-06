@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
-// import logo from '../assets/images/Logo-2.png'
+import logo from '../assets/images/Logo-2.png'
 
 const mainNav = [
     {
@@ -51,7 +51,7 @@ const Header = () => {
             <div className="container">
                 <div className="header__logo">
                     <Link to="/">
-                        {/* <img src={logo} alt="" /> */}
+                        <img src={logo} alt="" />
                     </Link>
                 </div>
                 <div className="header__menu">
